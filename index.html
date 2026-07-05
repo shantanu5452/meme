@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>🐱 Cat Meme Cam AI</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+
+<h1>
+
+🐱 Cat Meme Cam AI
+
+</h1>
+
+<div class="header-buttons">
+
+<button id="themeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-gear"></i>
+
+</button>
+
+</div>
+
+</header>
+
+<main>
+
+<div class="camera-card">
+
+<h2>
+
+📷 Live Camera
+
+</h2>
+
+<video
+id="video"
+autoplay
+playsinline>
+
+</video>
+
+<div class="camera-info">
+
+<div>
+
+FPS
+
+<span id="fps">
+
+30
+
+</span>
+
+</div>
+
+<div>
+
+Confidence
+
+<span id="confidence">
+
+100%
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="meme-card">
+
+<h2>
+
+😂 Meme Reaction
+
+</h2>
+
+<img
+id="memeImage"
+src="assets/memes/default.jpg"
+alt="Meme">
+
+<h3 id="gestureName">
+
+Waiting...
+
+</h3>
+
+</div>
+
+</main>
+
+<section class="dashboard">
+
+<div class="card">
+
+<h3>
+
+Gesture
+
+</h3>
+
+<p id="gesture">
+
+None
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Emotion
+
+</h3>
+
+<p>
+
+😊 Happy
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Status
+
+</h3>
+
+<p>
+
+🟢 Ready
+
+</p>
+
+</div>
+
+</section>
+
+<section class="controls">
+
+<button id="startCamera">
+
+<i class="fa-solid fa-camera"></i>
+
+Start Camera
+
+</button>
+
+<button id="screenshot">
+
+📸 Screenshot
+
+</button>
+
+<button id="record">
+
+🎥 Record
+
+</button>
+
+<button id="upload">
+
+📂 Upload Memes
+
+</button>
+
+</section>
+
+<footer>
+
+Made with ❤️ using HTML CSS JavaScript
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
